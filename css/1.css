@@ -1,0 +1,263 @@
+@font-face {
+    font-family: "DAN";
+    src: url(../font/DaneehandRegularCyr.ttf);
+  }
+  /*верхушка*/
+  header {
+    display: flex;
+    justify-content: space-between;
+    height: 20vh;
+  }
+  header .logo {
+    background: #05090c;
+    background: url("../img/logo.jpg");
+    background-size: cover;
+    width: 20%;
+  }
+  header .top {
+    width: -webkit-calc(80%);
+    display: flex;
+    justify-content:center;
+    align-items: center;
+  }
+  header .top div {
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    background: #05090c;
+    flex: 1 1 20%;
+    height: 20vh;
+    font-size: 2rem;
+    color: white;
+  }
+  /*выбор, работа только с h1 и р*/
+  h1.special-text {
+    color: red;
+    font-size: 3rem;
+  }
+  h1.special-text2 {
+    color:white;
+    font-size: 3rem;
+    margin: 5%;
+  }
+  h1.zagolovok {
+    margin: 50px 100px;
+    color: rgb(0, 0, 0);
+    font-size: 6rem;
+  }
+  h1.zagolovokK {
+    font-family: "DAN";
+    text-align: center;
+    color: rgb(0, 0, 0);
+    font-size: 4rem;
+    font-weight: bold;
+  }
+  h1.zagolovokK1 {
+    margin: 0 2% ;
+    font-family: "DAN";
+    color: rgb(0, 0, 0);
+    font-size: 3rem;
+  }
+  h1.zagolovokK2 {
+    color: rgb(0, 0, 0);
+    font-size: 2rem;
+    font-style: italic;
+    font-style: oblique;
+    padding-left: 2%;
+    padding-top: 2%;
+  }
+  h1.zagolovokK3 {
+    color: white;
+    font-size: 2rem;
+    font-style: italic;
+    font-style: oblique;
+  }
+  /*обводка тенями текста в карусели*/
+  h1.ctt{
+    text-align: center;
+    color: black;
+    -webkit-text-stroke: 1px yellow;
+     text-shadow:
+        2px  2px 0 yellow,
+       -1px -1px 0 yellow,  
+        1px -1px 0 yellow,
+       -1px  1px 0 yellow,
+        1px  1px 0 yellow;
+    font-size: 4rem;
+  }
+  /* спецтекст только для p*/
+  p.sp {
+    margin: 10px 2%;
+    color: rgb(0, 0, 0);
+    font-size: 2rem;
+    font-family: "DAN";
+    /*font-weight: bold;*/
+  }
+  p.sp01 {
+    margin: 10px 2%;
+    color: rgb(0, 0, 0);
+    font-size: 3rem;
+    font-family: "DAN";
+    font-weight: bold;
+  }
+  p.sp2 {
+    margin: 10px 2%;
+    color: rgb(255, 0, 0);
+    font-size: 2rem;
+    font-family: "DAN";
+    /*font-weight: bold;*/
+  }
+  p.sp3 {
+    margin: 10px 2%;
+    color: rgb(255, 0, 0);
+    font-size: 4rem;
+    font-family: "DAN";
+    font-weight: bold;
+  }
+ /*вторая строка*/
+ .second-row {
+  display: flex;
+  justify-content: center;
+  align-items:unset;
+  background: url("../img/Обложка.jpg") no-repeat;
+  width: 100%;
+  height: auto;
+  aspect-ratio: 2.5/1;
+  background-size: cover;
+  font-family: "DAN";
+  font-size: 7rem;
+  margin-bottom: 50px;
+}
+/*о компании*/
+.repeat-lines1 {
+  display: flex;
+  overflow-x: block;
+  height: auto;
+  margin: 0 30px;
+}
+.repeat-lines1 .text, .repeat-lines1 .img {
+  flex: 10% 10% 50%;
+}
+.repeat-lines1 .text {
+  margin: 0 30px;
+  font-family: "DAN";
+  font-size: 2rem;
+  /*font-size: calc(0.5rem + 2vw);*/
+}
+
+.repeat-lines1 .img {
+  aspect-ratio: 2 /1;
+  margin: 50px 50px;
+  overflow-x: block;
+  background-size: cover;
+  height: 8%;
+  width: 8%;
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+.repeat-lines1 .img img {
+  width: 100%;
+  height: auto;
+}
+.card{
+  display: flex;
+  margin: 20px auto;
+  width: 60%;
+  height: auto;
+}
+.btn{
+  width: 100%;
+  height: auto;
+}
+
+/*список только(о компании, низ)*/
+ul li{
+  margin: 15px 100px;
+  font-size:2rem;
+  font-family: "DAN";
+ }
+
+/*карусель*/
+.carsel{
+  padding: 0%;
+}
+.carsel .carousel-item{
+  margin-left: 15%;
+  display: flex;
+ max-width: 70%;
+}
+.carsel .carousel-item img{
+  object-fit: cover;
+}
+.card{
+  margin: 20px 50px auto;
+
+}
+/*футер*/
+footer{
+  color: #080808;
+  display: flex;
+  width: 100%;
+}
+.footer-nav{
+  display: flex;
+  justify-content: space-around;
+  flex-grow: 0.5;
+  flex-wrap: wrap;
+}
+.footer-nav-item{
+  font-size: calc(0.2em + 1vw);
+}
+.icons{
+  display: flex;
+  width: 30vw;
+  justify-content: space-around;
+  align-items:center;
+}
+/*@import url(https://fonts.googleapis.com/css?family=Raleway);*/
+
+/*для выравнивания футера*/
+.col{
+  padding: 0 10%;
+}
+/*для прозрачности кнопки на иконке*/
+.d-grid{
+  color: transparent;
+}
+
+/*для допстраниц*/
+.bene{
+  display: flex;
+
+  flex-direction: row;
+ max-width: 50px;
+}
+
+.bene .bene1{
+  width: 50%;
+  height: 50%;
+  border-right: 0px;
+}
+/*копия классов для карточек на допстраницах*/
+.repeat-lines2 {
+  display: flex;
+  height: 50%;
+  margin: 0 50;
+  width: 100%;
+}
+.repeat-lines2 .img2 {
+  aspect-ratio:  1/1;
+  max-width: 30%;
+  margin: 50px 50px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.repeat-lines2 .text2, .repeat-lines2 .img2 {
+  flex: 20% 20% 50%;
+}
+.repeat-lines2 .text2 {
+  margin: 50px 50px;
+  font-family: "DAN";
+  font-size: 2rem;
+  /*font-size: calc(0.5rem + 2vw);*/
+}

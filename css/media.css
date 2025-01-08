@@ -1,0 +1,105 @@
+@media (max-width: 800px){
+   
+    header .logo{
+        background-size: cover;
+        height: auto;
+        width: auto;
+        aspect-ratio: 2/1;
+        flex-grow: 0;
+    }
+    header .top div{
+      display:flex
+    }
+
+    h1.special-text {
+        color: red;
+        font-size: 0.9rem;
+      }
+      h1.special-text2 {
+        color: white;
+        font-size: 0.9rem;
+      }
+      h1.zagolovok {
+        margin: 2% 2%;
+        color: rgb(0, 0, 0);
+        font-size: 20%;
+      }
+      h1.zagolovokK2{
+        margin: 2% 2%;
+        color: rgb(0, 0, 0);
+        font-size: 50%;
+      }
+      .card{
+        display: flex;
+        margin: 20px auto;
+        width: 60%;
+        height: auto;
+    }
+    h1.zagolovokK {
+        margin: 2% 2%;
+        color: rgb(0, 0, 0);
+        font-size: 4rem;
+      }
+
+      .repeat-lines1{
+        display: flex;
+      flex-direction: column;
+      }
+
+      h1.ctt{
+        text-align: center;
+        color: black;
+         font-size: 0.01rem;
+      }
+/*доп страницы, карточки*/
+.repeat-lines2{
+  display: flex;
+flex-direction: column;
+margin: 5% auto;
+padding: 0;
+}
+
+ .bene{
+ max-width: 100px;
+}
+.repeat-lines2 .img2 {
+  aspect-ratio:  1/1;
+  max-width: 50%;
+  margin: 5% 5%;
+  border: 1%;
+  border-color: tomato;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+p.sp01 {
+  margin: 10px 2%;
+  color: rgb(0, 0, 0);
+  font-size: 2rem;
+  font-family: "DAN";
+  font-weight: bold;
+}
+p.sp2 {
+  margin: 10px 2%;
+  color: rgb(255, 0, 0);
+  font-size: 1rem;
+  font-family: "DAN";
+  /*font-weight: bold;*/
+}
+p.sp3 {
+  margin: 10px 2%;
+  color: rgb(255, 0, 0);
+  font-size: 2rem;
+  font-family: "DAN";
+  font-weight: bold;
+}
+
+    footer{
+        flex-direction: column;
+    }
+    .icons{
+        width: 4%;
+        margin-bottom: 10px;
+    }
+
+}
